@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "AI Comment Suggestions",
+    "version": "1.0",
+    "description": "A simple Chrome extension that suggests AI-related comments.",
+    "permissions": ["tabs", "linkedin.com"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "tinder.png",
+        "48": "tinder.png",
+        "128": "tinder.png"
+      }
+    }
+  }
+  
