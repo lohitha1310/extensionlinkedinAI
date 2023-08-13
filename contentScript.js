@@ -25,7 +25,7 @@ function filterAIPosts() {
   
     posts.forEach((post) => {
       const postText = post.textContent.toLowerCase();
-      if (postText.includes('ai') || postText.includes('artificial intelligence')) {
+      if (postText.includes('ai') || postText.includes('artificial inteligence')) {
         filteredPosts.push(post.outerHTML);
       }
     });
