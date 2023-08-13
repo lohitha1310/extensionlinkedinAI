@@ -3,7 +3,7 @@
 //chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 //    if (message.type === 'FILTERED_POSTS') {
 //      const filteredPosts = message.posts;
-      // Add your code here to fetch comment suggestions from the ChatGPT API and store them.
+      // Add your code here to fetch comment suggestions from the ChtGPT API and store them.
 //    }
 //  });
 // background.js
